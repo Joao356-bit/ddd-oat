@@ -1,4 +1,4 @@
-document.getElementById('consultarBtn').addEventListener('click', function() {
+document.getElementById('consultarBtn').addEventListener('click', function(){
     let ddd = document.getElementById('dddInput').value;
     if(ddd === '73'){
         fetch(`https://brasilapi.com.br/api/ddd/v1/${ddd}`)
